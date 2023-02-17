@@ -1,0 +1,15 @@
+total1=total1+p[i];
+        total2=total2+total1;
+        if(total2<20)
+        {
+            if((20-total2)<=p[i])
+            {
+                c++;
+                total2=0;
+            }
+        }
+        if(total>=20)
+        {
+            c++;
+            total2=0;
+        }
